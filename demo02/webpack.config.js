@@ -6,27 +6,29 @@
  * 更多资料：
  * polyfill引入：https://www.babeljs.cn/docs/usage/polyfill/
  * babel-preset-env配置：https://www.babeljs.cn/docs/plugins/preset-env/
+ * 
+ * 先执行npm install，再执行webpack --watch
  */
 module.exports = {
-  entry: {
-    app: "./app.js"
-  },
-  output: {
-    filename: "bundle.js"
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
-        use: {
-          loader: "babel-loader" // 转化需要的loader
-          // options选项配置在: .babelrc
-          // options: {
-          //   ...
-          // }
-        }
-      }
-    ]
-  }
+    entry: {
+        app: "./app.js"
+    },
+    output: {
+        filename: "bundle.js"
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: "babel-loader" // 转化需要的loader
+                    // options选项配置在: .babelrc
+                    // options: {
+                    //   ...
+                    // }
+                }
+            }
+        ]
+    }
 };
