@@ -7,7 +7,17 @@
  * polyfill引入：https://www.babeljs.cn/docs/usage/polyfill/
  * babel-preset-env配置：https://www.babeljs.cn/docs/plugins/preset-env/
  * 
- * 先执行npm install，再执行webpack --watch
+ * 方法一：先执行npm install，再执行webpack --watch
+ * 
+ * 方法二： 配置package.json文件,运行 npm run webpack执行打包
+  --watch 自动更新
+  --progress 显示打包进度
+  --display-modules 列出打包模块
+  --display-reasons 列出打包原因
+  --p 压缩混淆脚本
+ * 
+ * 
+ * 
  */
 module.exports = {
     entry: {
