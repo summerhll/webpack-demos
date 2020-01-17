@@ -1,4 +1,6 @@
 /**
+ * scss提取和懒加载
+ * 
  * 1. webpack4下安装extract-text-webpack-plugin: npm install --save-dev extract-text-webpack-plugin@next
  * 2. webpack4下的scss懒加载: 详情见 './src/app.js'
  */
