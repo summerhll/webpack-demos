@@ -1,4 +1,7 @@
 /**
+ * 打包js
+ * 
+ * 
  * 必须使用CommonJs规范
  * 更多高级用法：https://www.webpackjs.com/concepts/output/
  * 

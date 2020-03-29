@@ -9,7 +9,7 @@ html {
   background: green;
 }
 
-.box--big {
+.box-big {
   height: 300px;
   width: 300px;
   border-radius: 5px;

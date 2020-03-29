@@ -1,4 +1,7 @@
 /**
+ * 编译es6
+ * 
+ * 
  * babel-loader: 负责es6语法转化
  * babel-preset-env: 包含es6、7等版本的语法转化规则
  * babel-polyfill: es6内置方法和函数转化垫片

@@ -1,6 +1,8 @@
+//处理scss
 const path = require("path");
 
 module.exports = {
+  mode : "development",
   entry: {
     app: "./src/app.js"
   },
@@ -13,7 +15,7 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        // 注意 loader 顺序
+        // 注意 loader 顺序: 放在最后的loader先执行
         use: [
           {
             loader: "style-loader" // 将 JS 字符串生成为 style 节点

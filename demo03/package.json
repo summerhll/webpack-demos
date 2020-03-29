@@ -1,8 +1,12 @@
 {
-  "devDependencies": {
-    "webpack": "^4.15.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.10"
-  }
+    "devDependencies": {
+        "webpack": "^4.15.1",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "lodash": "^4.17.10"
+    },
+    "scripts": {
+        "webpack": "webpack --watch --progress --color"
+    }
 }
